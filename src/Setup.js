@@ -15,10 +15,8 @@ import axelarFantomSatelite_raw from './Abis/Fantom/AxelarFantomSatelite';
 
 
 // ************************** //
-// *** Create a .env file and insert the private key for a Moonbase EVM account
-// *** Example 
+// *** Create a .env file and insert the private key for a Moonbeam EVM account
 // *** REACT_APP_PRIVATE_KEY= "YOUR PRIVATE KEY"; 
-// *** Bear in mind that for each Axelar GMP Message we pay 8 DEV for fees upfront to ensure not only the message does reach the Satelite smart contracts e.g. Binance Test Net but also comes back with a callback answer to update the Head Quarters Satelite smart contract in Moonbase Alpha that the all Satelites are in sync of the information these hold
 const PRIVATE_KEY = process.env.REACT_APP_PRIVATE_KEY;     
 // ************************** //
 
