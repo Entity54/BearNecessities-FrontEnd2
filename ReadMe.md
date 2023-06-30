@@ -35,7 +35,8 @@ https://youtu.be/UwMSTadZjyU
 
 Demo Website
 
-https://bear-necessities-front-end2.vercel.app/
+https://bear-necessities-front-end2.vercel.app/ <br>
+(Best Viewed at 2560x1440px)
 
 <br>
 
@@ -199,6 +200,7 @@ For the front end, the user can:
     $yarn
     $npm start
 
+(You will have to create your own .env file - further instructions at setup.js)<br>
 and can see the front end application at http://localhost:3000/
 
 ---

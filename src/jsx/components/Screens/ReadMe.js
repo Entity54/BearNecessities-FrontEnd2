@@ -53,6 +53,7 @@ const ReadMe = () => {
 												Links<br></br>
 												<a href="https://youtu.be/UwMSTadZjyU"target="_blank" rel="noreferrer">Demo Video</a> <br></br>
 												<a href="https://bear-necessities-front-end2.vercel.app/"target="_blank" rel="noreferrer">Demo Website</a> <br></br>
+												(Best Viewed at 2560x1440px)
 												
 												</p>
 												<br></br>
@@ -215,7 +216,8 @@ const ReadMe = () => {
 												For the front end, the user can:<br></br><br></br>
 
 												$yarn<br></br>
-												$npm start<br></br><br></br>
+												$npm start<br></br>
+												(You will have to create your own .env file - further instructions at setup.js)<br></br><br></br>
 
 												and can see the front end application at http://localhost:3000/<br></br>
 												<br></br>
