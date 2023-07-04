@@ -283,7 +283,7 @@ const ReadMe = () => {
 												<h2 className="">Fantom Opera</h2>
 
 												<h3 className="">SEE uj_AxelarFantomSatelite.js <br></br>
-												axelarFantomSatelite_address = "0x27d7222AD292d017C6eE1f0B8043Da7F4424F6a0"</h3>
+												axelarFantomSatelite_address = "0x4Ff100bc3b2f40F9F2AF03D095b1Bc5875538321"</h3>
 												<br></br>
 
 												</p>

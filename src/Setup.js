@@ -33,7 +33,7 @@ const executionOrdersEngineFromFantom_address = "0xc259A95E717ccf5aEDA5971CE967E
 const axelarMoonbeamSatelite_address = "0xb85E1D77d6430bBDAF91845181440407c3c2bf6b";
 
 //FANTOM 
-const axelarFantomSatelite_address = "0x27d7222AD292d017C6eE1f0B8043Da7F4424F6a0";
+const axelarFantomSatelite_address = "0x4Ff100bc3b2f40F9F2AF03D095b1Bc5875538321"; //"0x27d7222AD292d017C6eE1f0B8043Da7F4424F6a0";
 
 
 const WDEV_Moonbase = "0x1436aE0dF0A8663F18c0Ec51d7e2E46591730715";
@@ -662,7 +662,7 @@ const deleteOrder_Moonbeam = async (orderNonce,_size,tokenIn) => {
 
 			const user_AxelarFantomSatelite_instance =  new ethers.Contract( axelarFantomSatelite_address, axelarFantomSatelite_raw.abi, wallet);
 			
-			if (tokenIn==="USDC_F")
+			if (tokenIn==="USDC_M")
 			{
 				console.log(` ****> deleteOrder_Moonbeam tokenIn: -> userChain: ${userChain} tokenIn: ${tokenIn}`);
 
